@@ -1,11 +1,13 @@
 
 class ndarray:
     
-    def __init__(self):
-        pass
+    def __init__(self, lst):
+        self.lst = lst
+        self.size = len(lst)
+        self.shape = (self.size,)
 
     def __repr__(self):
-        pass
+        return 'array(%s)' % repr(self.lst)
 
     def __str__(self):
-        pass
+        return repr(self.lst)
