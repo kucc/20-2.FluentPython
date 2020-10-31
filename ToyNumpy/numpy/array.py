@@ -1,5 +1,5 @@
 
-class ndarray:
+class array:
     
     def __init__(self, lst):
         self.lst = lst
